@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa hàng điện thoại</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h2>Danh Mục Sản Phẩm</h2>
+    <div id="category" class="category-list">
+
+    </div>
+    <h2>Danh Sách Sản Phẩm</h2>
+    <div class="search" id="search">
+        <input type="text" placeholder="Nhập từ khóa tìm kiếm...">
+        <button id="">Tìm kiếm</button>
+    </div>
+    <select id="filter">
+        <option value="mac-dinh">Mặc định</option>
+        <option value="gia-thap-den-cao">Giá thấp đến cao</option>
+        <option value="gia-cao-den-thap">Giá cao đến thấp</option>
+        <option value="giam-gia-nhieu">Giảm giá nhiều</option>
+      </select>
+    <div id="products" class="product-list">
+
+    </div>
+    <div id="pagination" class="pagination">
+        <span id="pagination-prev" class="pagination__button">Prev</span>
+        <span id="pagination-number">1</span>
+        <span id="pagination-next" class="pagination__button">Next</span>
+    </div>
+    <script type="module" src="./js/category.js"></script>
+    <script type="module" src="./js/product.js"></script>
+</body>
+
+</html>
